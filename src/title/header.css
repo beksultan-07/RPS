@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+.choice{
+    display: flex;
+    justify-content: space-between;
+}
+.choice h2{
+    font-size: 1rem;
+    margin-left: 1vw;
+}
+
+.dash::after{
+    content: '-';
+    margin-left: 1vw;
+}
+
+.states{
+    display: flex;
+    justify-content: space-between;
+}
+.states h2{
+    font-size: 1rem;
+
+    margin-left: 1vw;
+}
+
+.win span{
+    color: green;
+}
+
+.lose span{
+    color: red;
+}

@@ -1,0 +1,47 @@
+.game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.you, .comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: -3px 3px 5px 5px #000;
+    transition: .4s;
+}
+
+.userChoice:hover{
+    background: red;
+    box-shadow:none;
+
+}
+.comp img{
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 5px #000;
+}
+
+.you img:nth-child(3){
+    margin-top: 1rem;
+}
+.you img:nth-child(4){
+    margin-top: 1rem;
+}
+
+.comp h1{
+    margin-bottom: auto;
+}
+
+.vs{
+    font-size: 2rem;
+    text-align: center;
+}

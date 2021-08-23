@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/RPS/static/css/main.2830cd54.chunk.css",
+    "main.js": "/RPS/static/js/main.5fb44ec4.chunk.js",
+    "main.js.map": "/RPS/static/js/main.5fb44ec4.chunk.js.map",
+    "runtime-main.js": "/RPS/static/js/runtime-main.c712271a.js",
+    "runtime-main.js.map": "/RPS/static/js/runtime-main.c712271a.js.map",
+    "static/js/2.b092b149.chunk.js": "/RPS/static/js/2.b092b149.chunk.js",
+    "static/js/2.b092b149.chunk.js.map": "/RPS/static/js/2.b092b149.chunk.js.map",
+    "static/js/3.2cb0e444.chunk.js": "/RPS/static/js/3.2cb0e444.chunk.js",
+    "static/js/3.2cb0e444.chunk.js.map": "/RPS/static/js/3.2cb0e444.chunk.js.map",
+    "index.html": "/RPS/index.html",
+    "static/css/main.2830cd54.chunk.css.map": "/RPS/static/css/main.2830cd54.chunk.css.map",
+    "static/js/2.b092b149.chunk.js.LICENSE.txt": "/RPS/static/js/2.b092b149.chunk.js.LICENSE.txt",
+    "static/media/question.187185de.png": "/RPS/static/media/question.187185de.png",
+    "static/media/бумага.ab257a5d.png": "/RPS/static/media/бумага.ab257a5d.png",
+    "static/media/камень.7fa31119.png": "/RPS/static/media/камень.7fa31119.png",
+    "static/media/ножницы.50e5447d.png": "/RPS/static/media/ножницы.50e5447d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c712271a.js",
+    "static/js/2.b092b149.chunk.js",
+    "static/css/main.2830cd54.chunk.css",
+    "static/js/main.5fb44ec4.chunk.js"
+  ]
+}

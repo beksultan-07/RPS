@@ -11,13 +11,12 @@
     justify-content: space-between;
 }
 .choice h2{
-    font-size: 1rem;
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 
 .dash::after{
     content: '-';
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 
 .states{
@@ -25,9 +24,7 @@
     justify-content: space-between;
 }
 .states h2{
-    font-size: 1rem;
-
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 
 .win span{

@@ -22,10 +22,9 @@ class App extends Component{
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
-  clickToChose = (userChoice) => {
+  clickToChoose = (userChoice) => {
     let randComp = this.rand(-1, 3)
     let getRand = this.state.choice[randComp]
-    // console.log(userChoice, getRand);
     if (getRand === 'rock'){
       let compChoice = this.state.comp
       compChoice = Rock
@@ -49,7 +48,6 @@ class App extends Component{
       let gameState = this.state.gameState
       gameState = 'Поражение'
       this.setState({gameState})
-      // console.log('win');
     }else if (userChoice === getRand){
       let gameState = this.state.gameState
       gameState = 'Ничья'
@@ -61,7 +59,6 @@ class App extends Component{
       let gameState = this.state.gameState
       gameState = 'Победа'
       this.setState({gameState})
-      // console.log('lose');
     }
   }
   result = () => {
@@ -86,9 +83,9 @@ class App extends Component{
             <div className="container">
               <Headers win={this.state.win} lose={this.state.lose}/>
               <Game 
-                UserRock = {() => this.clickToChose('rock')}
-                UserPaper = {() => this.clickToChose('paper')}
-                UserScissors = {() => this.clickToChose('scissors')}
+                UserRock = {() => this.clickToChoose('rock')}
+                UserPaper = {() => this.clickToChoose('paper')}
+                UserScissors = {() => this.clickToChoose('scissors')}
                 rock = {Rock}
                 paper = {Paper}
                 scissors = {Scissors}

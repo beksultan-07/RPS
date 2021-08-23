@@ -3,6 +3,10 @@ import './game.css'
 
 
 function Game(props) {
+    let color = 'red'
+    if (props.gameState === 'Победа'){
+        color = 'green'
+    }
     return (
         <main className='game'>
             <div className="you">
@@ -13,7 +17,7 @@ function Game(props) {
             </div>
 
             <div className="vs">
-                <h4>{props.gameState}</h4>
+                <h4 style={{color}}>{props.gameState}</h4>
                 <h1>VS</h1>
             </div>
 
